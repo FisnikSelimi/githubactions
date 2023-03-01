@@ -1,6 +1,9 @@
 name: Action Workflow
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"
 
 jobs:
   run-github-actions:
