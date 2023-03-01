@@ -3,7 +3,7 @@ name: Action Workflow
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* * * * *"
+    - cron: "0/1 * * * *"
 
 jobs:
   run-github-actions:
